@@ -104,7 +104,7 @@ const Team = () => (
             <PersonContainer>
                 <Person src={arruran} />
                 <Name>Arruran Kamalavannan</Name>
-                <Position>Director of Marketing</Position>
+                <Position>Director of Finance</Position>
             </PersonContainer>
             <PersonContainer>
                 <Person src={placeholder} />
