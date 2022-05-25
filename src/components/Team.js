@@ -66,7 +66,7 @@ const Team = () => (
             <PersonContainer>
                 <Person src={arian} />
                 <Name>Arian Ahmadinejad</Name>
-                <Position>Technical Lead</Position>
+                <Position>Technical Manager</Position>
             </PersonContainer>
             <PersonContainer>
                 <Person src={geon} />
