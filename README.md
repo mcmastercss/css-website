@@ -6,6 +6,4 @@ The McMaster Computer Science Society (CSS) is an organization of undergraduate 
 
 ## Contact
 
-For more information on the McMaster Computer Science Society please contact the CS Society President [Omar Alkersh
-
-](mailto:alkersho@mcmaster.ca).
+For more information on the McMaster Computer Science Society please contact the CS Society President [Omar Alkersh](mailto:alkersho@mcmaster.ca).
