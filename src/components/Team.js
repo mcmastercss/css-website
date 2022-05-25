@@ -14,6 +14,8 @@ import proyetei from "../assets/team/proyetei.jpg";
 import arian from "../assets/team/arian.jpg";
 import placeholder from "../assets/team/placeholder.jpg";
 import arruran from "../assets/team/arruran.jpg";
+import haq from "../assets/team/haq.jpg";
+import esha from "../assets/team/esha.jpg";
 
 const TeamContentWrapper = styled(ContentWrapper)`
     display: flex;
@@ -97,7 +99,7 @@ const Team = () => (
                 <Position>Social Media Manager</Position>
             </PersonContainer>
             <PersonContainer>
-                <Person src={placeholder} />
+                <Person src={esha} />
                 <Name>Esha Pisharody</Name>
                 <Position>Director of Administration</Position>
             </PersonContainer>
@@ -112,7 +114,7 @@ const Team = () => (
                 <Position>Director of Marketing</Position>
             </PersonContainer>
             <PersonContainer>
-                <Person src={placeholder} />
+                <Person src={haq} />
                 <Name>Mohammed Haq</Name>
                 <Position>Graphics Designer</Position>
             </PersonContainer>
