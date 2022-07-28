@@ -54,6 +54,7 @@ const Title = styled.h1`
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 60px;
+    text-decoration: underline;
 `;
 
 const Team = () => (
