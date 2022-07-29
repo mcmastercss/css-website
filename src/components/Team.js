@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import { device } from "../device";
 import ContentWrapper from "./ContentWrapper";
 
 import omar from "../assets/team/omar.jpg";
@@ -12,7 +10,6 @@ import insiyah from "../assets/team/insiyah.jpg";
 import nihal from "../assets/team/nihal.jpg";
 import proyetei from "../assets/team/proyetei.jpg";
 import arian from "../assets/team/arian.jpg";
-import placeholder from "../assets/team/placeholder.jpg";
 import arruran from "../assets/team/arruran.jpg";
 import haq from "../assets/team/haq.jpg";
 import esha from "../assets/team/esha.jpg";
@@ -33,6 +30,7 @@ const Person = styled.img`
     width: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 `;
 
 const PersonContainer = styled.div`
@@ -49,16 +47,35 @@ const Position = styled.p`
     font-weight: 400;
     font-style: italic;
 `;
+const TitleContainer = styled.div`
+    margin-bottom: 80px;
+`;
+
+const TitleDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+`;
 
 const Title = styled.h1`
     font-size: 2.5em;
-    text-align: center;
-    margin-bottom: 60px;
+`;
+
+const CurvedUnderline = styled.div`
+    background-color: #5b87fd;
+    height: 10px;
+    border-radius: 20px;
 `;
 
 const Team = () => (
     <div>
-        <Title>Our Team</Title>
+        <TitleDiv>
+            <TitleContainer>
+                <Title>Our Team</Title>
+                <CurvedUnderline></CurvedUnderline>
+            </TitleContainer>
+        </TitleDiv>
         <TeamContentWrapper>
             <PersonContainer>
                 <Person src={omar} />
