@@ -33,7 +33,6 @@ function getYear() {
 let currentYear = getYear();
 const Home = () => (
     <LandingContainer>
-        {/* <Navbar/> */}
         <Showcase />
         <Socials />
         <Team />
