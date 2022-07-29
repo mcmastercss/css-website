@@ -8,8 +8,6 @@ const FooterWrapper = styled.div`
 `;
 
 const Footer = () => {
-    let currentYear = new Date.getFullYear();
-
     return (
         <FooterWrapper>
             <p>@ 2022 Copywrite: McMaster University</p>

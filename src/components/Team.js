@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import { device } from "../device";
 import ContentWrapper from "./ContentWrapper";
 
 import omar from "../assets/team/omar.jpg";
@@ -12,7 +10,6 @@ import insiyah from "../assets/team/insiyah.jpg";
 import nihal from "../assets/team/nihal.jpg";
 import proyetei from "../assets/team/proyetei.jpg";
 import arian from "../assets/team/arian.jpg";
-import placeholder from "../assets/team/placeholder.jpg";
 import arruran from "../assets/team/arruran.jpg";
 import haq from "../assets/team/haq.jpg";
 import esha from "../assets/team/esha.jpg";

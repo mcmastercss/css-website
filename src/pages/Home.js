@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import Navbar from "../components/Navbar";
 import Showcase from "../components/Showcase";
 import Team from "../components/Team";
-import Footer from "../components/Footer";
 import Socials from "../components/Socials";
 
 const LandingContainer = styled.section`
